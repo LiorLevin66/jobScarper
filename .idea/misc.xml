@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.10 (Selenium_Project)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Selenium_Project)" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="Python 3.9 (PythonProject)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (PythonProject)" project-jdk-type="Python SDK" />
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
+  </component>
+>>>>>>> 513185688fadc8c6271dd821a47f2232e00db450
 </project>
