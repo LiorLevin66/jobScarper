@@ -37,13 +37,13 @@ class JobScraperGUI(tk.Tk):
 
         # 1.Username section
         ttk.Label(input_frame, text="User Name:").grid(row=0, column=0, sticky='w', padx=5, pady=5)
-        self.username_var = tk.StringVar(value="")  #
+        self.username_var = tk.StringVar(value="")  
         self.username_entry = ttk.Entry(input_frame, textvariable=self.username_var, width=40)
         self.username_entry.grid(row=0, column=1, padx=5, pady=5, sticky='e')
 
         # 2. Password section
         ttk.Label(input_frame, text="Password:").grid(row=1, column=0, sticky='w', padx=5, pady=5)
-        self.password_var = tk.StringVar(value="")  # ערך ברירת מחדל
+        self.password_var = tk.StringVar(value="")  
         self.password_entry = ttk.Entry(input_frame, textvariable=self.password_var, show='*', width=40)
         self.password_entry.grid(row=1, column=1, padx=5, pady=5, sticky='e')
 
@@ -75,7 +75,7 @@ class JobScraperGUI(tk.Tk):
         self.start_button = ttk.Button(main_frame, text="Start the Scraping", command=self.start_scraping_thread)
         self.start_button.pack(pady=10, fill='x')
 
-        # Status
+        
         ttk.Label(main_frame, text=" Log messages:", font=('Arial', 14, 'bold')).pack(pady=(10, 5), anchor='w')
         self.status_text = scrolledtext.ScrolledText(main_frame, wrap=tk.WORD, height=15, width=70,
                                                      font=('Courier New', 9))
